@@ -7,17 +7,14 @@ Data una lista della spesa (inventatela),
   (anche brutalmente, basta che si vedano)
  */
 
-let target = document.getElementById("target");
-const list = ` <ul>
-    <li>banana</li>
-    <li>fragola</li>
-    <li>ananas</li>
-
-</ul> 
-`;
+const target = document.getElementById("target");
+const list = ["banana", "fragola", "caramelle"];
+console.log([list]);
 
 let i = 0;
-while (i < list.lenght) {
-  console.log(list[i]);
+while (i < list.length) {
   i++;
+  console.log([i]);
 }
+
+target.innerText = `<ul><li>${i}</li></ul>`;
