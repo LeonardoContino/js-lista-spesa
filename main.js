@@ -8,7 +8,13 @@ Data una lista della spesa (inventatela),
  */
 
 let target = document.getElementById("target");
-const list = ["banana", "fragola", "ananas"];
+const list = ` <ul>
+    <li>banana</li>
+    <li>fragola</li>
+    <li>ananas</li>
+
+</ul> 
+`;
 
 let i = 0;
 while (i < list.lenght) {
