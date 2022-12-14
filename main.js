@@ -17,4 +17,9 @@ while (i < list.length) {
   console.log([i]);
 }
 
-target.innerText = `<ul><li>${i}</li></ul>`;
+target.innerHTML = `
+<ul>
+<li>${list[0]}</li>
+<li>${list[1]}</li>
+<li>${list[2]}</li>
+</ul>`;
